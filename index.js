@@ -2,6 +2,7 @@ let input = document.querySelector("input");
       let button = document.querySelector("button");
       button.addEventListener("click", () => {
         let data = "";
+        button.style.backgroundColor='green';
         let charctor =
           "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz@#$%^&*-?><+1234567890";
           
